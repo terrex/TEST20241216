@@ -7,6 +7,6 @@ public class LeapServiceImpl implements LeapService {
 
     @Override
     public Boolean isLeapYear(Integer year) {
-        return true;
+        return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
     }
 }
