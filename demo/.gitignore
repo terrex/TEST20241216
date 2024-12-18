@@ -31,3 +31,4 @@ build/
 
 ### VS Code ###
 .vscode/
+/.approval_tests_temp/.approved_files.log
