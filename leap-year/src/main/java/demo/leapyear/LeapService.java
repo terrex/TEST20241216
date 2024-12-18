@@ -1,4 +1,4 @@
-package brok.leapyear;
+package demo.leapyear;
 
 public interface LeapService {
 
